@@ -43,9 +43,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C313B4EA297553E100326C8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C313B4EB297553E200326C8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C313B4EC297553E200326C8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C313B4ED297553F600326C8D /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C313B4EE297553F600326C8D /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C313B4EF297553F600326C8D /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA51865424C133AD009064F6 /* SettingsFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFooterView.swift; sourceTree = "<group>"; };
 		FA57BA6B24BFB314009FC13E /* Turbah.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Turbah.rcproject; sourceTree = "<group>"; };
-		FA7A250424BFA497003D8825 /* Turbah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turbah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7A250424BFA497003D8825 /* Qagba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qagba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7A250724BFA497003D8825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA7A250924BFA497003D8825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA7A251024BFA498003D8825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,10 +76,8 @@
 		FAA1220424CCD508009F12C2 /* CalibrateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrateView.swift; sourceTree = "<group>"; };
 		FAA1220624CCDD90009F12C2 /* Conversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversions.swift; sourceTree = "<group>"; };
 		FABD9FB524D3B1FD00CC6EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FABD9FB724D3B21100CC6EDA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FABD9FBA24D3B29F00CC6EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FABD9FBE24D3B39600CC6EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FABD9FC024D3B39900CC6EDA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FACE7EB424C15494002FE5FC /* ErrorOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorOverlay.swift; sourceTree = "<group>"; };
 		FACE7EB624C173FE002FE5FC /* LocationsListMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListMenu.swift; sourceTree = "<group>"; };
 		FACE7EB824C176EB002FE5FC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -104,7 +108,7 @@
 		FA7A250524BFA497003D8825 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA7A250424BFA497003D8825 /* Turbah.app */,
+				FA7A250424BFA497003D8825 /* Qagba.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +205,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA7A250324BFA497003D8825 /* Turbah */ = {
+		FA7A250324BFA497003D8825 /* Qagba */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA7A251824BFA498003D8825 /* Build configuration list for PBXNativeTarget "Turbah" */;
+			buildConfigurationList = FA7A251824BFA498003D8825 /* Build configuration list for PBXNativeTarget "Qagba" */;
 			buildPhases = (
 				FA7A250024BFA497003D8825 /* Sources */,
 				FA7A250124BFA497003D8825 /* Frameworks */,
@@ -213,11 +217,11 @@
 			);
 			dependencies = (
 			);
-			name = Turbah;
+			name = Qagba;
 			packageProductDependencies = (
 			);
 			productName = Turbah;
-			productReference = FA7A250424BFA497003D8825 /* Turbah.app */;
+			productReference = FA7A250424BFA497003D8825 /* Qagba.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -235,14 +239,15 @@
 					};
 				};
 			};
-			buildConfigurationList = FA7A24FF24BFA497003D8825 /* Build configuration list for PBXProject "Turbah" */;
+			buildConfigurationList = FA7A24FF24BFA497003D8825 /* Build configuration list for PBXProject "Qagba" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				ar,
+				ru,
+				kk,
 			);
 			mainGroup = FA7A24FB24BFA497003D8825;
 			packageReferences = (
@@ -251,7 +256,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA7A250324BFA497003D8825 /* Turbah */,
+				FA7A250324BFA497003D8825 /* Qagba */,
 			);
 		};
 /* End PBXProject section */
@@ -314,6 +319,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA7A251324BFA498003D8825 /* Base */,
+				C313B4EA297553E100326C8D /* ru */,
+				C313B4ED297553F600326C8D /* kk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -322,7 +329,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FABD9FB524D3B1FD00CC6EDA /* en */,
-				FABD9FB724D3B21100CC6EDA /* ar */,
+				C313B4EB297553E200326C8D /* ru */,
+				C313B4EE297553F600326C8D /* kk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -331,7 +339,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FABD9FBE24D3B39600CC6EDA /* en */,
-				FABD9FC024D3B39900CC6EDA /* ar */,
+				C313B4EC297553E200326C8D /* ru */,
+				C313B4EF297553F600326C8D /* kk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -500,7 +509,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA7A24FF24BFA497003D8825 /* Build configuration list for PBXProject "Turbah" */ = {
+		FA7A24FF24BFA497003D8825 /* Build configuration list for PBXProject "Qagba" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA7A251624BFA498003D8825 /* Debug */,
@@ -509,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA7A251824BFA498003D8825 /* Build configuration list for PBXNativeTarget "Turbah" */ = {
+		FA7A251824BFA498003D8825 /* Build configuration list for PBXNativeTarget "Qagba" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA7A251924BFA498003D8825 /* Debug */,

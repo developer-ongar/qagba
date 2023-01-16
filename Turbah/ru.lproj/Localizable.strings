@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  Turbah
+
+  Created by MMQ on 7/30/20.
+  Copyright © 2020 MMQ. All rights reserved.
+*/
+
+"Kaba" = "Ka'ba";
+"MasjidAlNabawi" = "Masjid Al-Nabawi";
+"MasjidAlAqsa" = "Masjid Al-Aqsa";
+"Baqi" = "Baqi'";
+"ImamAliShrine" = "Imam Ali Shrine";
+"ImamHussainShrine" = "Imam Hussain Shrine";
+"ImamRidhaShrine" = "Imam Ridha Shrine";
+"AskariainShrine" = "Askariain Shrine";
+"SayedahMasumaShrine" = "Sayedah Ma'suma Shrine";
+"SayedahZainabShrine" = "Sayedah Zainab Shrine";
+
+"Contact" = "Contact";
+"TurbahDistance" = "Turbah distance";
+"TrueNorth" = "True North";
+"MagneticNorth" = "Magnetic North";
+"OurApps" = "Our apps";
+"TermsPrivacy" = "Terms and Privacy Policy";
+"Share" = "Share";
+"EmailTitle" = "Turbah";
+"UnableSendTitle" = "Unable to send message";
+"UnableSendMessage" = "Unable to send message. Please check your internet connection and try again.";
+
+"Settings" = "Settings";
+"Retry" = "Retry";
+
+"FaceQiblaMessage" = "Please face the Qibla then tap";
+
+"RerunTitle" = "Tap to rerun";
+"RerunMessage" = "Tapping this button will calibrate then place the turbah.";
+"Ok" = "Ok";
+
+"LocationDisabled" = "Location Services disabled";
+"CameraDisabled" = "Camera permissions disabled";
