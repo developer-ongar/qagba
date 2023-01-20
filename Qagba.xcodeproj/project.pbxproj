@@ -46,9 +46,6 @@
 		C313B4EA297553E100326C8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C313B4EB297553E200326C8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C313B4EC297553E200326C8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C313B4ED297553F600326C8D /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		C313B4EE297553F600326C8D /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C313B4EF297553F600326C8D /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA51865424C133AD009064F6 /* SettingsFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFooterView.swift; sourceTree = "<group>"; };
 		FA57BA6B24BFB314009FC13E /* Turbah.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Turbah.rcproject; sourceTree = "<group>"; };
 		FA7A250424BFA497003D8825 /* Qagba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qagba.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,7 +244,6 @@
 				en,
 				Base,
 				ru,
-				kk,
 			);
 			mainGroup = FA7A24FB24BFA497003D8825;
 			packageReferences = (
@@ -320,7 +316,6 @@
 			children = (
 				FA7A251324BFA498003D8825 /* Base */,
 				C313B4EA297553E100326C8D /* ru */,
-				C313B4ED297553F600326C8D /* kk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +325,6 @@
 			children = (
 				FABD9FB524D3B1FD00CC6EDA /* en */,
 				C313B4EB297553E200326C8D /* ru */,
-				C313B4EE297553F600326C8D /* kk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -340,7 +334,6 @@
 			children = (
 				FABD9FBE24D3B39600CC6EDA /* en */,
 				C313B4EC297553E200326C8D /* ru */,
-				C313B4EF297553F600326C8D /* kk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -471,19 +464,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = SDG37YDN8V;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LRN3P9936N;
 				INFOPLIST_FILE = Turbah/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Qagba AR";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MMQ.Turbah;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.gagba.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -492,19 +490,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = SDG37YDN8V;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LRN3P9936N;
 				INFOPLIST_FILE = Turbah/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Qagba AR";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MMQ.Turbah;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.gagba.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

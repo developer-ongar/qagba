@@ -1,9 +1,9 @@
 //
 //  DistanceCell.swift
-//  Turbah
+//  Qagba
 //
-//  Created by MMQ on 7/21/20.
-//  Copyright © 2020 MMQ. All rights reserved.
+//  Created by Администратор on 20/01/2023.
+//  Copyright © 2023 MMQ. All rights reserved.
 //
 
 import UIKit

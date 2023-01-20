@@ -2,20 +2,10 @@
   Localizable.strings
   Turbah
 
-  Created by MMQ on 7/30/20.
-  Copyright © 2020 MMQ. All rights reserved.
+ Created by Ongar.dev 20/10/2023.
 */
 
 "Kaba" = "Ka'ba";
-"MasjidAlNabawi" = "Masjid Al-Nabawi";
-"MasjidAlAqsa" = "Masjid Al-Aqsa";
-"Baqi" = "Baqi'";
-"ImamAliShrine" = "Imam Ali Shrine";
-"ImamHussainShrine" = "Imam Hussain Shrine";
-"ImamRidhaShrine" = "Imam Ridha Shrine";
-"AskariainShrine" = "Askariain Shrine";
-"SayedahMasumaShrine" = "Sayedah Ma'suma Shrine";
-"SayedahZainabShrine" = "Sayedah Zainab Shrine";
 
 "Contact" = "Contact";
 "TurbahDistance" = "Turbah distance";
