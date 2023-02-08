@@ -54,7 +54,7 @@ class SettingsVC: UITableViewController, MFMailComposeViewControllerDelegate {
         ])
     ]
     
-    let contactInfo = [("contactemail", "mmqazwini@yahoo.com"), ("contactinstagram", "@mmqazwini")]
+    let contactInfo = [("contactemail", "developer.ongar@protonmail.com"), ("contactinstagram", "Developer")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
