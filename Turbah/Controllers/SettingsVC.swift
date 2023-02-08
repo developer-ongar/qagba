@@ -158,11 +158,11 @@ class SettingsVC: UITableViewController, MFMailComposeViewControllerDelegate {
                     composeVC.mailComposeDelegate = self
                     composeVC.setToRecipients(["mmqazwini@yahoo.com"])
                     composeVC.setSubject("EmailTitle".localized)
-                    composeVC.setMessageBody("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSent From Turbah", isHTML: false)
+                    composeVC.setMessageBody("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSent From Qagba", isHTML: false)
                     present(composeVC, animated: true, completion: nil)
                 }
             } else {
-                let instagramUrl = URL(string: "instagram://user?username=mmqazwini")
+                let instagramUrl = URL(string: "instagram://user?username=ongar.jr")
                 if UIApplication.shared.canOpenURL(instagramUrl!) {
                     UIApplication.shared.open(instagramUrl!, options: [:], completionHandler: nil)
                 } else {
