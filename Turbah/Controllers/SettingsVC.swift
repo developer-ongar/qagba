@@ -175,7 +175,7 @@ class SettingsVC: UITableViewController, MFMailComposeViewControllerDelegate {
             guard let url = URL(string: developerURL) else { return }
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         case .terms:
-            guard let url = URL(string: "https://momodesu.com/turbah/termsprivacy.html") else { return }
+            guard let url = URL(string: "https://developer-ongar.github.io/Qagba-app-privacy/index.html") else { return }
             let safariView = SFSafariViewController(url: url)
             present(safariView, animated: true)
         case .share:
