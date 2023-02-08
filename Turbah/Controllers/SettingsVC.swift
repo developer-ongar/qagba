@@ -166,7 +166,7 @@ class SettingsVC: UITableViewController, MFMailComposeViewControllerDelegate {
                 if UIApplication.shared.canOpenURL(instagramUrl!) {
                     UIApplication.shared.open(instagramUrl!, options: [:], completionHandler: nil)
                 } else {
-                    if let url = URL(string: "http://instagram.com/mmqazwini") {
+                    if let url = URL(string: "http://instagram.com/ongar.jr") {
                         UIApplication.shared.open(url, options: [:], completionHandler: nil)
                     }
                 }
